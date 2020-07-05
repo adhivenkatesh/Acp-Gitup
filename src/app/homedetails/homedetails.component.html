@@ -1,0 +1,33 @@
+<!-- <br>
+{{HomeDetails|json}} -->
+
+
+<nav class="navbar navbar-expand-md  navbar-dark fixed-top" style="background-color: #129b84;">
+    <a class='btn btn-success' [routerLink]="['/Home']">Back-Home-Panel  </a><h3 class="text-center">{{title}}</h3>
+</nav>
+<br>
+
+
+<table class="table table-hover table-bordered">
+    <tr>
+        <th>NAME</th>
+        <td>{{HomeDetails?.username}}</td>
+    </tr>
+        <tr>
+            <th>EMAIL</th>
+            <td>{{HomeDetails?.email}}</td>
+        </tr>
+        <tr>
+            <th>PHONE</th>
+            <td>{{HomeDetails?.phone}}</td>
+        </tr>
+        <tr>
+            <th>COMPANY</th>
+            <td>{{HomeDetails?.company?.name}}</td>
+            </tr>
+
+    
+   
+</table>
+<!-- <router-outlet></router-outlet> -->
+

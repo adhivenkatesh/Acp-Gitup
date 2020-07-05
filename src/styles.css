@@ -1,0 +1,117 @@
+/* You can add global styles to this file, and also import other style files */
+
+details{
+  color: #e935a4;
+}
+table tr.highlight{
+  background-color: #35e995 !important;
+  color: #e8f0e8;
+  /* text-emphasis-color:#e8f0e8; */
+}
+/* #loginalert {
+  background-color: #e4156b;
+  text-shadow: #e4156b;
+} */
+.login {
+    width: 300px;
+    margin: 10px auto;
+    font-size: 14px;
+  }
+  
+  .login-header,
+  .login p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .login-triangle {
+    width: 0;
+    margin-right: auto;
+    margin-left: auto;
+    border: 12px solid transparent;
+    border-bottom-color: rgb(206, 11, 196);
+  }
+  
+  .login-warning{
+    background: rgb(189, 12, 12);
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .login-Nowarning{
+    background: rgb(12, 129, 37);
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
+  .login-header {
+    background: rgb(12, 129, 37);
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  
+  .login-container {
+    background: #eba4a4;
+    padding: 12px;
+  }
+  
+  .login p {
+    padding: 12px;
+  }
+  
+  .login input {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    padding: 16px;
+    outline: 0;
+    font-family: inherit;
+    font-size: 0.95em;
+  }
+  
+  .login input[type="email"],
+  .login input[type="password"] {
+    background: #fff;
+    border-color: #bbb;
+    color: #555;
+  }
+  
+  .login input[type="email"]:focus,
+  .login input[type="password"]:focus {
+    border-color: #888;
+  }
+  
+  .login input[type="submit"] {
+    background: rgb(216, 52, 19);
+    border-color: transparent;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .login input[type="submit"]:hover {
+    background: #17c;
+  }
+  
+  .login input[type="submit"]:focus {
+    border-color: #05a;
+  }
+  
+  .has-error input[type="email"],
+  .has-error input[type="password"] {
+      border-color: rgb(216, 12, 12);
+      color: rgb(230, 14, 14);
+  }

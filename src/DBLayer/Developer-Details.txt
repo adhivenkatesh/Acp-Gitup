@@ -1,0 +1,76 @@
+
+
+
+
+
+
+
+
+
+
+//--------------
+npm install jquery popper.js
+npm i bootstrap
+
+
+//api data
+https://jsonplaceholder.typicode.com/users
+
+
+
+
+// Later fixed
+      // .catch((error)=>{
+      //   console.log(error)
+      //     return Observable.throw(error);
+      // })
+
+//--
+    //     return   [
+    //     {id:101,name:'John',email:'abc@bbc.com'},
+    //     {id:102,name:'Veronica',email:'Newyork@cc.com'},
+    //     {id:103,name:'Fredric',email:'Mumbai@mmc.com'},
+    //     {id:104,name:'Fredric',email:'Mumbai@mmc.com'},
+    //     {id:105,name:'Fredric',email:'Mumbai@mmc.com'},
+    //     {id:106,name:'Fredric',email:'Mumbai@mmc.com'},
+    //     {id:107,name:'Fredric',email:'Mumbai@mmc.com'}
+    // ]
+        // return this.uploadForLoopData();
+    
+<div class="row">
+	<aside class="col-sm-4">
+<p>Login form style 1</p>
+<div class="card">
+<article class="card-body">
+<a href="" class="float-right btn btn-outline-primary">Sign up</a>
+<h4 class="card-title mb-4 mt-1">Sign in</h4>
+	 <form>
+    <div class="form-group">
+    	<label>Your email</label>
+        <input name="" class="form-control" placeholder="Email" type="email">
+    </div> 
+    <div class="form-group">
+    	<a class="float-right" href="#">Forgot?</a>
+    	<label>Your password</label>
+        <input class="form-control" placeholder="******" type="password">
+    </div> <!-- form-group// --> 
+    <div class="form-group"> 
+    <div class="checkbox">
+      <label> <input type="checkbox"> Save password </label>
+    </div> <!-- checkbox .// -->
+    </div> <!-- form-group// -->  
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-block"> Login  </button>
+    </div> <!-- form-group// -->                                                           
+</form>
+</article>
+  
+
+--- key press event
+export class KeyUpComponent_v1 {
+  values = '';
+
+  onKey(event: any) { // without type info
+    this.values += event.target.value + ' | ';
+  }
+}

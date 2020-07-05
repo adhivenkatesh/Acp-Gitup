@@ -1,0 +1,34 @@
+
+<nav class="navbar navbar-expand-md  navbar-dark fixed-top" style="background-color: #129b84;">
+    <a class='btn btn-success' [routerLink]="['/Admin']">Back-Admin  </a><h3 class="text-center">{{title}}</h3>
+</nav>
+<br>
+
+
+<table class="table table-hover table-bordered">
+    <thead class="bg-warning">
+        <tr>
+        <th>EMPLOYEE-ROLL-NO</th>
+        <th>NAME</th>
+        <th>EMAIL</th>
+       
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor='let Hu of Homeusers;let i=index' (click)='selectRow(Hu)'  (mouseover)='highlightrow(Hu)'   [ngClass]="{'highlight':Hu.username==selctedname}">
+        <!-- <td>{{i+1}}</td> -->
+        <!-- <td><a [routerLink]="['/HomeDetails',Hu.id]" >{{Hu.id}}</a>  </td> -->
+        <td>{{Hu.id}}</td>
+        <td>{{Hu.username}}</td>
+        <td>{{Hu.email}}</td>
+        
+    </tr>
+</tbody>
+</table>
+<!-- <router-outlet></router-outlet> -->
+
+<!-- <ul>
+    <li *ngFor='let user of users'>
+        {{user}}
+    </li>
+</ul> -->

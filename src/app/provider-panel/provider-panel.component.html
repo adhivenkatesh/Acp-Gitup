@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-md  navbar-dark fixed-top" style="background-color: #129b84;">
+    <a class='btn btn-success' [routerLink]="['/Admin']">Back-Admin  </a><h3 style="align-content: center;">{{title}}</h3>
+    
+</nav>
+<br>
+
+<table class="table table-hover table-bordered">
+    <thead class="bg-warning">
+        <tr>
+        <th>PROVIDER-ID</th>
+        <th>TITLE</th>
+        <th>BODY</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor='let PU of PanelUsers;let i=index'>
+        <!-- <td>{{i+1}}</td> -->
+        <!-- <td><a [routerLink]="['/PanelUsers',userId]" >{{Hu.id}}</a>  </td> -->
+        
+        <td>{{PU.id}}</td>
+        <td>{{PU.title}}</td>
+        <td>{{PU.body}}</td>
+        
+    </tr>
+</tbody>
+</table>
