@@ -1,3 +1,5 @@
+
+
 This simple  application
 
 Application : Angular Cli 9.1
@@ -17,6 +19,8 @@ logout
 DBLayer(Database layer)-shared-facade-common-services
 
 facade-commonservices-will handle the all service details
+
+Uploaded on sunday 5-7-2020 @ 9.52 india time.
 
 
 
